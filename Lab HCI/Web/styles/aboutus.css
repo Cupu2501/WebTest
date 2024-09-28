@@ -1,0 +1,121 @@
+*{
+  padding:0%;
+  margin:0%;
+}
+
+html, body {
+  width: 100%;
+    background: #A3A9B0;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;700&family=Poppins&display=swap');
+
+  .nav-section{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    padding-left: 0px;
+    z-index: 999;
+  }
+  ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+  
+  .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    padding: .4rem;
+    background-color: #4C5870;
+    backdrop-filter: blur(10px);
+  /*   box-shadow: 0 20px 30px rgba(0,0,0,0.15); */
+  }
+  
+  .nav-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-right: 50px;
+    height: 6vh;
+  }
+  .nav-links li{
+    list-style-type: none;
+  }
+  
+  .nav-links li a{
+    color: white;
+    padding: 8px;
+    margin: 4px;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif ;
+    font-weight: lighter;
+    text-decoration: none;
+  }
+  
+  .nav-links li a:hover{
+    color: #9E616A;
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+  }
+
+  .navbar-logo{
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    padding-top: 3px;
+  }
+  
+  .logo{
+    width: 15%;
+    height: 15%;
+  }
+
+  /* .about{
+    width: 100%;
+    padding-top: 300px;
+    color: white;
+    text-align: center;
+  } */
+
+  .about{
+    margin-top: 95.55px;
+  }
+
+  .bg2{
+    align-items: center;
+    position: absolute;
+    display:flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .about1{
+    position: absolute;
+    top:40%;
+    left:0%;
+    padding-left: 25px;
+    padding-right: 5px;
+    font-family: 'Nunito Sans', sans-serif ;
+    font-weight: lighter;
+    font-size:400%;
+    text-decoration: none;
+    color:azure;
+  }
+
+  .footer{
+    width: 100%;
+    position: relative;
+    color: #4C5870;
+    padding-top: 780px;
+    text-align: center;;
+  }
+
+  .footer ul{
+    list-style-type: none;
+  }

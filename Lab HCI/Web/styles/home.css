@@ -1,0 +1,169 @@
+*{
+  padding:0%;
+  margin:0%;
+}
+
+html, body {
+  width: 100%;
+    background: #A3A9B0;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;700&family=Poppins&display=swap');
+
+  .nav-section{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    padding-left: 0px;
+    z-index: 999;
+  }
+  ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+  
+  .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    padding: .4rem;
+    background-color: #4C5870;
+    backdrop-filter: blur(10px);
+  /*   box-shadow: 0 20px 30px rgba(0,0,0,0.15); */
+  }
+  
+  .nav-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-right: 50px;
+    height: 6vh;
+  }
+  .nav-links li{
+    list-style-type: none;
+  }
+  
+  .nav-links li a{
+    color: white;
+    padding: 8px;
+    margin: 4px;
+    font-size: 14px;
+    font-family: 'Nunito Sans', sans-serif ;
+    font-weight: lighter;
+    text-decoration: none;
+  }
+  
+  .nav-links li a:hover{
+    color: #9E616A;
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+  }
+
+  .navbar-logo{
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    padding-top: 3px;
+  }
+  
+  .logo{
+    width: 15%;
+    height: 15%;
+  }
+
+  .home{
+    margin-top: 95.55px;
+  }
+
+  .bg1{
+    align-items: center;
+    position: absolute;
+    display:flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .home1{
+    position: absolute;
+    top:50%;
+    left:70%;
+    font-family: 'Nunito Sans', sans-serif ;
+    font-weight: lighter;
+    font-size:400%;
+    text-decoration: none;
+    color:azure;
+  }
+
+  .brand{
+    text-align: center;
+    padding-top: 780px;
+  }
+
+  .home ul{
+    list-style-type: none;
+    display: table;
+  }
+
+  .jam{
+    position: relative;
+    width:400px;
+    height: 500px;
+    padding: 5px;
+    padding-left: 75px;
+  }
+
+  .boxxx{
+    display:flex;
+    padding-left:100px;
+  /*   margin-right: 10px; */
+  }
+  
+  .box{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 37px;
+    vertical-align: middle;
+    box-shadow: 0px 6px 9px 4px rgba(0, 0, 0, .25);
+  }
+  
+  .table1{
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .title2{
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    padding-top:15px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .isi{
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    color:black;
+    width: 299px;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .footer{
+    width: 100%;
+    position: relative;
+    color: #4C5870;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .footer ul{
+    list-style-type: none;
+  }
